@@ -1,0 +1,76 @@
+.timeline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience{
+    margin-top: 30px;
+    width: 40%;
+    border: 2px solid var(--yellow-theme-main-color);
+
+}
+
+.experience-header{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+    color: var(--yellow-theme-sub-text-color);
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 5%;
+}
+
+.education{
+    margin-top: 30px;
+    width: 40%;
+    border: 2px solid var(--yellow-theme-main-color);
+}
+
+.education-header{
+
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+    color: var(--yellow-theme-sub-text-color);
+    /* margin-top: 10px; */
+    padding:5% ;
+    
+}
+
+.timeline-element-title{
+    color: var(--yellow-theme-sub-text-color);
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.timeline-element-subtitle{
+    
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yellow-theme-main-color);
+}
+
+.timeline-element-title-content{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width : 750px){
+    .timeline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .education, .experience{
+        width: 80%;
+    }
+
+
+}
